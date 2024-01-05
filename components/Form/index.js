@@ -8,6 +8,7 @@ export default function Form() {
                     <form className={styles.form}>
                     <img className={styles.textLogo} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsGUMX5_VbQJQ4OpHr0SWdUin5PjJyLmfQ7Zzd8JyGA&s" alt="instagram text logo"></img>
                     <fieldset className={styles.fieldSet}>
+                            
                             <input 
                                 
                                 id="username"

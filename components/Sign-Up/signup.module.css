@@ -1,0 +1,22 @@
+.signupOuterContainer {
+    display: flex;
+    width: 350px;
+    height: 60px;
+    border: 1px solid #DBDBDB;
+    margin: auto;
+}
+
+.signupInnerContainer {
+    width: 218px;
+    margin: auto;
+}
+
+
+.textBlack {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.textBlue {
+    color: #4CB5F9;
+}
