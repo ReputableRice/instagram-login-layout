@@ -11,11 +11,21 @@
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    
 }
 
 .images img {
+    margin: 4px;
    margin-top: 20px;
+}
+
+.googlePlay {
     width: 151px;
+    height: 45px;
+}
+
+.microsoft {
+    width: 126px;
     height: 45px;
 }

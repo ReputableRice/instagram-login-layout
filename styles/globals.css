@@ -1,8 +1,7 @@
 :root {
-  --aqua: rgb(77,223,255);
-  --blue: rgb(0,0,255);
-  --red:rgb(255,0,0);
-
-
-  --regular-font: 20px;
+  --grey: #DBDBDB;
+  --darkgrey: #8D8D8D;
+  --blue: #4CB5F9;
+  --white: #FFFFFF;
+  --navy: #3A5699;
 }

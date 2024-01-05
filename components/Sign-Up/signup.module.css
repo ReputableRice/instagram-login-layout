@@ -2,7 +2,7 @@
     display: flex;
     width: 350px;
     height: 60px;
-    border: 1px solid #DBDBDB;
+    border: 1px solid var(--grey);
     margin: auto;
 }
 
@@ -14,9 +14,10 @@
 
 .textBlack {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .textBlue {
     color: #4CB5F9;
+    font-weight: bold;
 }
