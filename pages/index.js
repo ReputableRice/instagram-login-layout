@@ -5,6 +5,10 @@ import styles from '@/styles/Home.module.css'
 import Form from '@/components/Form'
 import Signup from '@/components/Sign-Up'
 import App from '@/components/GetApp'
+import FooterInstagram from '@/components/Footer'
+
+import JSXStyle from 'styled-jsx/style'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +21,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <body>
+
       <main className={`${styles.main}`}>
       <div>
         <Form/>
@@ -25,9 +31,12 @@ export default function Home() {
         <br></br>
         <App/>
       </div>
-      
-      
       </main>
+
+      </body>
+      <footer>
+      <FooterInstagram/>
+      </footer>
     </>
   )
 }
