@@ -8,3 +8,8 @@
 .formSpacing {
   height: 10px;
 }
+
+.mainContainer {
+  display: flex;
+  
+}
