@@ -4,7 +4,6 @@ import Form from '@/components/Form'
 import Signup from '@/components/Sign-Up'
 import App from '@/components/GetApp'
 import FooterInstagram from '@/components/Footer'
-import DummyImage from '@/components/fakeImage'
 
 
 export default function Home() {
@@ -18,23 +17,24 @@ export default function Home() {
       </Head>
 
       <div className={styles.mainContainer}>
-      <div>
-        <DummyImage/>
-      </div>
+          <div className={styles.imageContainer}>
+            <img src={'/images/phonemock.png'} alt="2 phones" width={380} height={628} priority/>
+          </div>
 
-      <main className={`${styles.main}`}>
-      <div>
+          <main className={styles.main}>
+            <div>
 
-        <Form/>
-        <br className={styles.formSpacing}></br>
-        <Signup/>
-        <br></br>
-        <App/>
-      </div>
-      </main>
+              <Form/>
+              <br className={styles.formSpacing}></br>
+              <Signup/>
+              <br></br>
+              <App/>
+
+            </div>
+          </main>
       </div>
       
-      <footer>
+      <footer className={styles.footerDisplay}>
       <FooterInstagram/>
       </footer>
     </>
