@@ -4,6 +4,7 @@ import Form from '@/components/Form'
 import Signup from '@/components/Sign-Up'
 import App from '@/components/GetApp'
 import FooterInstagram from '@/components/Footer'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
 
       <div className={styles.mainContainer}>
           <div className={styles.imageContainer}>
-            <img className={styles.phoneMockup} src={'/images/phonemock.png'} alt="2 phones" priority/>
+          <Image src={'/images/phonemock.png'} width={380} height={628} className={styles.phoneMockup} alt="2 phones" priority></Image>
           </div>
 
           <main className={styles.main}>

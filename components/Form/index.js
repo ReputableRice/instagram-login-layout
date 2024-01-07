@@ -1,12 +1,13 @@
 import styles from './form.module.css'
 import LoginButton from '@/components/LoginButton'
+import Image from 'next/image'
 
 export default function instagramForm() {
     return(
         <>
                 <div className={styles.formContainer}>
                     
-                    <img className={styles.textLogo} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsGUMX5_VbQJQ4OpHr0SWdUin5PjJyLmfQ7Zzd8JyGA&s" alt="instagram text logo"></img>
+                <Image src={'/images/Instagram.png'} width={192} height={54} className={styles.textLogo} alt="instagram logo"></Image>                    
                     <form className={styles.form}>
                         <fieldset className={styles.fieldSet}>
                             <input 
@@ -35,7 +36,7 @@ export default function instagramForm() {
                 </div>
 
                 <div className={styles.facebookContainer}>
-                    <img className={styles.facebookIcon} src="https://upload.wikimedia.org/wikipedia/commons/9/91/036-facebook.png" alt="Facebook icon"></img>
+                    <Image className={styles.facebookIcon} src={'/images/facebook.png'} width={18} height={18} alt="Facebook icon"></Image>
                     <div className={styles.facebookText}>Log in with Facebook</div>
                 </div>
 

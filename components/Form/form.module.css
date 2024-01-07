@@ -123,10 +123,20 @@
         padding-top: 10px;
         scale:90%;
     }
+   .facebookContainer {
+    margin-top: 10px;
+   }
 }
 
 /*Ipad Air*/
 @media (min-width: 820px) {
+    .formContainer{
+        height: 400px;
+    }
+    .fieldSet {
+        padding: 20px 0 0 0;
+    }
+
 }
 
 /*Ipad Air and Smaller*/
