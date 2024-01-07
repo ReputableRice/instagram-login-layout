@@ -3,13 +3,11 @@
     width: 350px;
     height: 60px;
     border: 1px solid var(--grey);
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.signupInnerContainer {
-    width: 218px;
-    margin: auto;
-}
+
 
 .textBlack {
     font-family: Arial, Helvetica, sans-serif;

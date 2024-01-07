@@ -1,35 +1,22 @@
 
 
-.formContainerOuter {
-  width: 350px;
-    height: 445px;
+.formContainer{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
     border: 1px solid var(--grey);
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-}
-
-.formContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: content-box;
-}
-
-.form {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 
 }
+
 
 .fieldSet {
     border: none;
-    padding: 20px;
-    max-width: 402px;   
+    padding: 20px 0px 20px 0;
+    width: 268px;   
 
 }
 
@@ -41,28 +28,26 @@
 
 .fieldSet > input {
     width: 268px;
-    height: 40px;
+    height: 32px;
     margin: 8px auto 8px auto;
     border: 1px solid var(--grey);
-    background-color: var(--white);
+    background-color: var(--lightgrey);
     display: flex;
     
     
 }
 
 .textLogo {
-padding-top: 50px;
+    padding-top: 50px;
     width: 192px;
     height: 54px;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
 .logIn {
     background-color: var(--blue);
-   border-radius: 8px;
-    width: 296px;
+    border-radius: 8px;
+    width: 268px;
     height: 36px;
     margin: 8px;
     font-weight: bold;
@@ -79,7 +64,7 @@ padding-top: 50px;
 
 .lineBreak {
     margin: 20px;
-    width: 119.383px;
+    width: 120px;
     height: 1px;
     background-color: var(--grey);
 }
@@ -103,10 +88,8 @@ padding-top: 50px;
 
 .forgot {
     font-size: 12px;
-    margin: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
     color: var(--navy);
+    margin: auto;
 }
 
 .or {
@@ -126,9 +109,20 @@ padding-top: 50px;
 
 /*Iphone XR*/
 @media (max-width: 700px) {
-    .formContainerOuter {
+    .formContainer {
           border: none;
+          height: 450px;
       }
+    .fieldSet {
+        padding: 20px 0px 5px 0;
+    }
+    .forgot {
+        margin: 20px;
+    }
+    .textLogo {
+        padding-top: 10px;
+        scale:90%;
+    }
 }
 
 /*Ipad Air*/
@@ -137,7 +131,7 @@ padding-top: 50px;
 
 /*Ipad Air and Smaller*/
 @media (max-width: 820px) {
-    .formContainerOuter {
+    .formContainer {
 width: auto;
       }
   }

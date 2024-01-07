@@ -1,13 +1,14 @@
 import styles from './form.module.css'
+import LoginButton from '@/components/LoginButton'
 
 export default function instagramForm() {
     return(
         <>
-            <div className={styles.formContainerOuter}>
                 <div className={styles.formContainer}>
-                    <form className={styles.form}>
+                    
                     <img className={styles.textLogo} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsGUMX5_VbQJQ4OpHr0SWdUin5PjJyLmfQ7Zzd8JyGA&s" alt="instagram text logo"></img>
-                    <fieldset className={styles.fieldSet}>
+                    <form className={styles.form}>
+                        <fieldset className={styles.fieldSet}>
                             <input 
                                 
                                 id="username"
@@ -24,8 +25,8 @@ export default function instagramForm() {
                                 placeholder="Password"
 
                             />     
-                            <button className={styles.logIn}> Log in </button>
-                        </fieldset>
+                            <LoginButton/>                        
+                    </fieldset>
                     </form>
                 <div className={styles.lineBreakContainer}>
                     <div className={styles.lineBreak}></div>
@@ -41,7 +42,7 @@ export default function instagramForm() {
                 <div className={styles.forgot}>Forgot password?</div>
 
                 </div>
-                </div>
+               
         </>
     )
 }

@@ -11,11 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 130px;
-  margin-bottom: 42px;
-  margin-left: auto;
-  margin-right: auto;
-  scale: 88%;
+  max-height: 100vh;
 }
 
 .footerDisplay {
@@ -39,6 +35,14 @@
 
 /*Ipad Air*/
 @media (min-width: 820px) {
+  .mainContainer {
+    height: 990px;
+
+  }
+  .footerDisplay {
+    width: 800px;
+    height: 160px;
+  }
 }
 
 /*Ipad Air and Smaller*/
@@ -46,4 +50,5 @@
   .phoneMockup {
     display: none;
   }
+  
 }
