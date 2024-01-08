@@ -17,27 +17,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.mainContainer}>
+    <div className={styles.mainContainer}>
           <div className={styles.imageContainer}>
-          <Image src={'/images/phonemock.png'} width={380} height={628} className={styles.phoneMockup} alt="2 phones" priority></Image>
+            <Image src={'/images/phonemock.png'} width={380} height={628} className={styles.phoneMockup} alt="2 phones" priority></Image>
           </div>
 
           <main className={styles.main}>
             <div>
-
               <Form/>
-              <br className={styles.formSpacing}></br>
-              <Signup/>
-              <br className={styles.formSpacing}></br>
+                <br className={styles.formSpacing}></br>
+                 <Signup/>
+                <br className={styles.formSpacing}></br>
               <App/>
-
             </div>
           </main>
-      </div>
+    </div>
       
-
-      <FooterInstagram className={styles.footerPosition}/>
-
+    <footer>
+      <FooterInstagram className={styles.footerDisplay}/>
+    </footer>
     </>
   )
 }

@@ -36,7 +36,15 @@ export default function instagramForm() {
                 </div>
 
                 <div className={styles.facebookContainer}>
-                    <Image className={styles.facebookIcon} src={'/images/facebook.png'} width={18} height={18} alt="Facebook icon"></Image>
+
+                    <Image className={styles.facebookIcon} src={'/images/facebook.png'} 
+                    
+                    width={18} 
+                    height={18} 
+                    alt="Facebook icon"
+                    
+                    ></Image>
+
                     <div className={styles.facebookText}>Log in with Facebook</div>
                 </div>
 

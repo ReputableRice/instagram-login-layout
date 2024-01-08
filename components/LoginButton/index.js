@@ -6,12 +6,16 @@ export default function LoginButton() {
 
     return(
         <>
-        <button className={styles.logIn} onClick={() => {
-            setSubmit([""])
-            console.log(submit)
-        }}>Log In
+        <button
 
+            className={styles.logIn} 
+            onClick={() => {
+                setSubmit([""])
+                console.log(submit)
+
+        }}>Log In
         </button>
+        
         {submit}
         </>
     )
