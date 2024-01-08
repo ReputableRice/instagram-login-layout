@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       
 
-      <FooterInstagram/>
+      <FooterInstagram className={styles.footerPosition}/>
 
     </>
   )

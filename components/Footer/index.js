@@ -3,7 +3,6 @@ import styles from './footer.module.css'
 export default function FooterInstagram() {
     return(
 <div className={styles.footerContainer}>
-    <div className={styles.innerContainer}>
     <div className={styles.textContainerTop}>
             <div className={styles.footerText}>Meta</div>
             <div className={styles.footerText}>About</div>
@@ -23,7 +22,6 @@ export default function FooterInstagram() {
     <div className={styles.textContainerBottom}>
             <div className={styles.footerText}>English</div>
             <div className={styles.footerText}>© 2024 Instagram from Meta</div>
-    </div>
     </div>
 </div>
     )

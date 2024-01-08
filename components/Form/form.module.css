@@ -101,7 +101,6 @@
 @media (max-width: 700px) {
     .formContainer {
           border: none;
-          height: 450px;
       }
     .fieldSet {
         padding: 20px 0px 5px 0;
@@ -110,7 +109,6 @@
         margin: 20px;
     }
     .textLogo {
-        padding-top: 10px;
         scale:90%;
     }
    .facebookContainer {

@@ -1,22 +1,9 @@
-.main {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .formSpacing {
   height: 10px;
 }
 
-.mainContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 840px;
-}
-
-.footerDisplay {
-
-}
 
 .phoneMockup {
   width: 380px;
@@ -28,22 +15,35 @@
 /*Iphone XR*/
 @media (max-width: 700px) {
   .mainContainer {
-    margin-top: 0;
-    margin-bottom: 0;
+    display: inline;
   }
 }
 
 /*Ipad Air*/
 @media (min-width: 820px) {
-  .footerDisplay {
-    width: 800px;
-    height: 160px;
+  .mainContainer {
+    margin: auto;
   }
 }
 
 /*desktop*/
-@media (min-width: 1920px) {
- 
+@media (max-width: 1920px) {
+  .mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-height: 840px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerDisplay {
+    margin-top: 50px;
+  }
 }
 
 /*Ipad Air and Smaller*/
