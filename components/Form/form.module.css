@@ -44,16 +44,6 @@
 
 }
 
-.logIn {
-    background-color: var(--blue);
-    border-radius: 8px;
-    width: 268px;
-    height: 36px;
-    margin: 8px;
-    font-weight: bold;
-    color: var(--white);
-    border: none;
-}
 
 .lineBreakContainer {
     display: flex;

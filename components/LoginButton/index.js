@@ -1,4 +1,4 @@
-import styles from '@/components/Form/form.module.css'
+import styles from '@/components/LoginButton/loginbutton.module.css'
 import React, { useState } from "react"
 
 export default function LoginButton() {
