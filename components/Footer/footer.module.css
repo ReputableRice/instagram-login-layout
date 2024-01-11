@@ -32,4 +32,13 @@
 }
 
 
+/*Ipad Air*/
+@media (max-width: 820px) and (min-width: 414px) {
+    .footerText{
+        margin: 4px 8px 4px 8px;
+        
+    }
+  }
+  
+
 
