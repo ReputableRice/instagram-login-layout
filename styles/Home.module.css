@@ -52,9 +52,11 @@
   }
   .footerDisplay {
     margin: auto;
+    
   }
   .mainContainer {
-    height: 896px;
+    max-height: 896px;
+    max-width: 414px;
   }
 }
 
@@ -65,15 +67,15 @@
   }
   .main {
     margin: auto;
-    height: 800px;
+    max-height: 800px;
   }
   .mainContainer {
-    height: 1180px;
-    width: 820px;
+    max-height: 1180px;
+    max-width: 750px;
   }
   .footerDisplay {
-    height: 160px;
-    width: 820px;
+    max-height: 160px;
+    max-width: 820px;
     margin: auto;
   }
 }
